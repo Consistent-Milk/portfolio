@@ -6,12 +6,15 @@ const About = () => {
             id="about"
             className="w-full md:h-screen flex items-center py-16 mt mt-40"
         >
-            <div className="max-w-[1280px] px-4 xl:px-0 m-auto md:grid gird-cols-3 gap-8">
+            <div className="max-w-[1280px] px-4 xl:px-0 m-auto md:grid grid-cols-2 gap-8">
                 <div className="col-span-2">
-                    <h1 className="flex justify-center items-center uppercase underline md:text-3xl mb-10 text-[#149DEE] font-bold animate__animated animate__fadeIn">
+                    <h1 className="flex items-center mb-10 justify-center text-xl tracking-widest border border-[#149DDD] rounded-xl uppercase text-[#149DDD]">
                         About Me
                     </h1>
-                    <p align="justify" className="text-white py-2 animate__animated animate__fadeIn">
+                    <p
+                        align="justify"
+                        className="text-white py-2 animate__animated animate__fadeIn"
+                    >
                         I am a Ph.D. student at the University of Central
                         Florida. I possess a keen interest in Number Theory and
                         Cryptography. In addition to my scholarly pursuits, I am
@@ -23,7 +26,10 @@ const About = () => {
                         misinformation concerning mathematics, particularly pure
                         mathematics.
                     </p>
-                    <p align="justify" className="text-white py-2 animate__animated animate__fadeIn">
+                    <p
+                        align="justify"
+                        className="text-white py-2 animate__animated animate__fadeIn"
+                    >
                         Currently serving as a substitute instructor in the New
                         York City Department of Education, I am seeking a
                         position in an industry or organization where I can
@@ -43,7 +49,10 @@ const About = () => {
                         mathematics with topics in computer science, especially
                         security.
                     </p>
-                    <p align="justify" className="text-white py-2 animate__animated animate__fadeIn">
+                    <p
+                        align="justify"
+                        className="text-white py-2 animate__animated animate__fadeIn"
+                    >
                         My current research focuses on building entirely new as
                         well as hybrid cryptography protocols that are heavily
                         based on concepts of number theory. I am also interested

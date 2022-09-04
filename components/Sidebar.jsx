@@ -25,7 +25,11 @@ const SideBar = () => {
                 }
             >
                 <Link href="/#hero">
-                    <a>
+                    <a
+                        onClick={() => {
+                            setNav(false);
+                        }}
+                    >
                         <SideBarIcon
                             icon={<AiOutlineHome size="28" />}
                             text="Home"
@@ -33,7 +37,11 @@ const SideBar = () => {
                     </a>
                 </Link>
                 <Link href="/#about">
-                    <a>
+                    <a
+                        onClick={() => {
+                            setNav(false);
+                        }}
+                    >
                         <SideBarIcon
                             icon={<AiOutlineUser size="32" />}
                             text="About"
@@ -41,15 +49,23 @@ const SideBar = () => {
                     </a>
                 </Link>
                 <Link href="/#skills">
-                    <a>
+                    <a
+                        onClick={() => {
+                            setNav(false);
+                        }}
+                    >
                         <SideBarIcon
                             icon={<FaNetworkWired size="25" />}
                             text="Skills"
                         />
                     </a>
                 </Link>
-                <Link href="/Resume">
-                    <a>
+                <Link href="/#resume">
+                    <a
+                        onClick={() => {
+                            setNav(false);
+                        }}
+                    >
                         <SideBarIcon
                             icon={<FaAddressBook size="25" />}
                             text="Resume"
@@ -57,7 +73,11 @@ const SideBar = () => {
                     </a>
                 </Link>
                 <Link href="/#contact">
-                    <a>
+                    <a
+                        onClick={() => {
+                            setNav(false);
+                        }}
+                    >
                         <SideBarIcon
                             icon={<AiOutlinePhone size="25" />}
                             text="Contact"
@@ -67,7 +87,7 @@ const SideBar = () => {
             </div>
             <div
                 onClick={handleNav}
-                className="fixed flex justify-end top-[2%] left-[85%] md:left-[95%] bg-blue-600 text-white hover:text-white hover:bg-[#149DDD] rounded-full border p-4 border-gray-900 cursor-pointer z-50"
+                className="fixed flex justify-end top-[2%] left-[85%] md:left-[92%] lg:left-[94%] bg-blue-600 text-white hover:text-white hover:bg-[#149DDD] rounded-full border p-4 border-gray-900 cursor-pointer z-50"
             >
                 <div>
                     <AiOutlineMenu />

@@ -25,10 +25,10 @@ import latexIcon from "../public/assets/icons/latex.png";
 const Skills = () => {
     return (
         <section id="skills" className="w-full h-auto p-2">
+            <h1 className="mt-10 max-w-[1240px] m-auto flex items-center justify-center text-xl tracking-widest border border-[#149DDD] rounded-xl uppercase text-[#149DDD]">
+                Skills
+            </h1>
             <div className="max-w-[1240px] mx-auto flex flex-col justify-start items-center h-full">
-                <h1 className="text-3xl tracking-widest font-bold uppercase underline text-[#149DDD]">
-                    Skills
-                </h1>
                 <h1 className="text-xl uppercase text-[#149DDD] mt-20 border border-[#149DDD] p-4 hover:shadow-sm hover:shadow-[#149DDD] cursor-pointer hover:scale-110 ease-in duration-300">
                     Frontend
                 </h1>
